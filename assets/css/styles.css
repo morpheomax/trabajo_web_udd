@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+nav {
+  background-color: #faf8f1;
+  color: #65647c;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+nav li a .logo {
+  height: 50px;
+
+  
+}
+nav li {
+  display: inline-block;
+  margin-right: 50px;
+  vertical-align: middle;
+}
+
+nav li a{
+  text-decoration: none;
+  color:gray
+}
+nav li a:hover{
+  text-decoration: none;
+  color:coral;
+}
+
+/*Imagen inicial*/
+header {
+  text-align: right;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../img/2.jpeg");
+  background-position: center;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #f5ebe0;
+  padding: 160px;
+  text-shadow: 4px 6px 12px #120e0e80;
+}
+
+header h1 {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.seccion-uno {
+  background-color: #faeab1;
+}
+.subtitulo {
+  padding: 30px;
+  font-weight: 400;
+  font-size: 30px;
+  text-align: center;
+}
+.card {
+  display: inline-block;
+  padding: 20px;
+  width: 300px;
+  text-align: center;
+  border-color: #65647c;
+}
+.card img {
+  width: 300px;
+  border-radius: 20px;
+  box-shadow: 4px 6px 12px #120e0e80;
+}
+.card .titulo {
+  padding-top: 10px;
+  font-size: 18px;
+}
+.card .info {
+  padding-top: 15px;
+  font-size: 15px;
+  font-weight: lighter;
+}
+
+.seccion-dos {
+  background-color: #e5ba73;
+  padding: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.seccion-dos .descripcion {
+  padding: 50px;
+  width: 300px;
+  align-items: center;
+  font-weight: lighter;
+}
+
+.img-desc {
+  border-radius: 20px;
+  height: 400px;
+}
+footer {
+  height: 100px;
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
